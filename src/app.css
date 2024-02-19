@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-dc-bg font-gg text-white;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-ExtraBoldItalic.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-ExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-ExtraBold.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans Normal';
+	src:
+		url('fonts/gg-sans/ggsans-BoldItalic.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-Bold.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-SemiboldItalic.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-SemiboldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-Semibold.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-MediumItalic.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-Medium.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-NormalItalic.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-NormalItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'gg sans';
+	src:
+		url('fonts/gg-sans/ggsans-Normal.woff2') format('woff2'),
+		url('fonts/gg-sans/ggsans-Normal.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
